@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aviation World</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- HEADER -->
+  <header class="bg-blue-800 p-6 text-center shadow-lg">
+    <h1 class="text-4xl font-bold">Aviation World</h1>
+    <p class="text-sm mt-2">Your Ticket to Global Adventures</p>
+    <a href="https://www.youtube.com/@AviationWorld2" target="_blank" class="mt-4 inline-block bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full text-lg transition">
+      🎥 Subscribe Now
+    </a>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="p-8 text-center max-w-3xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-4">About the Channel</h2>
+    <p class="text-gray-300">
+      Welcome to Aviation World!
+Join us as we fly and explore the world through amazing flight games. 
+From takeoff to landing, experience the thrill of aviation and travel every mile.
+
+Subscribe and let’s game the globe together!
+    </p>
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="bg-gray-900 py-10">
+    <h2 class="text-2xl text-center font-semibold mb-6">Latest Videos</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-8">
+      <!-- Video 1 -->
+      <div class="aspect-video">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/BVMC-eFpnLI" title="Philippines Airlines A350 - 900 Manila to New York" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <!-- Video 2 -->
+      <div class="aspect-video">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/xcjq_FLakL8" title=" Lion Air B737 - 800 Balikpapan to Semarang" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <!-- Video 3 -->
+      <div class="aspect-video">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/SgkFcdLYzQc" title=" Garuda Indonesia B737 - 800 Semarang to Jakarta" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-800 text-center py-4 text-sm mt-10">
+    © 2025 Aviation World. All rights reserved.
+  </footer>
+
+</body>
+</html>
